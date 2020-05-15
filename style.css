@@ -1,0 +1,88 @@
+/** Used Vivus Instant Tool to generate Logo SVG **/
+/** https://maxwellito.github.io/vivus-instant/ **/
+
+html {
+  width: 100%;
+  height: 100%;
+  display: table;
+} 
+
+body {
+  width: 100%;
+  height: 100%; 
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+} 
+
+.MIXQtSgR_0 {
+    stroke-dasharray: 447 449;
+    stroke-dashoffset: 448;
+    animation: MIXQtSgR_draw 1666ms linear 0ms forwards;
+}
+.MIXQtSgR_1 {
+    stroke-dasharray: 612 614;
+    stroke-dashoffset: 613;
+    animation: MIXQtSgR_draw 1666ms linear 138ms forwards;
+}
+.MIXQtSgR_2 {
+    stroke-dasharray: 630 632;
+    stroke-dashoffset: 631;
+    animation: MIXQtSgR_draw 1666ms linear 277ms forwards;
+}
+.MIXQtSgR_3 {
+    stroke-dasharray: 493 495;
+    stroke-dashoffset: 494;
+    animation: MIXQtSgR_draw 1666ms linear 416ms forwards;
+}
+.MIXQtSgR_4 {
+    stroke-dasharray: 75 77;
+    stroke-dashoffset: 76;
+    animation: MIXQtSgR_draw 1666ms linear 555ms forwards;
+}
+.MIXQtSgR_5 {
+    stroke-dasharray: 276 278;
+    stroke-dashoffset: 277;
+    animation: MIXQtSgR_draw 1666ms linear 694ms forwards;
+}
+.MIXQtSgR_6 {
+    stroke-dasharray: 493 495;
+    stroke-dashoffset: 494;
+    animation: MIXQtSgR_draw 1666ms linear 833ms forwards;
+}
+@keyframes MIXQtSgR_draw {
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+@keyframes MIXQtSgR_fade {
+    0% {
+        stroke-opacity: 1;
+    }
+    94.02985074626866% {
+        stroke-opacity: 1;
+    }
+    100% {
+        stroke-opacity: 0;
+    }
+}
+
+/* Style */
+#logo * {
+  fill-opacity: 0;
+  transition: fill-opacity 1s;
+  stroke-width: 1;
+  stroke: #676565;
+
+}
+
+#logo.finished * {
+  fill-opacity: 1;
+  fill: #676565;
+}
+
+#logo{
+    width: 500px;
+    height: 550px;
+   
+}
